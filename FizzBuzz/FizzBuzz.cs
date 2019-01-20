@@ -41,7 +41,7 @@ namespace FizzBuzz
         }
 
         public bool isDivisiblebyBoth3and5(int number) {
-            return number % 3 == 0 && number % 5 == 0;
+            return isDivisibleby3(number) && isDivisibleby5(number);
         }
 
         public bool isDivisibleby3(int number) {
